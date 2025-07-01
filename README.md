@@ -27,10 +27,10 @@ Papain-like protease (PL<sup>pro</sup>) from SARS-CoV-2 is a high-priority targe
 
 This repository includes representative raw and processed experimental data:
 
-- `MM_complete.prism` — Michaelis-Menten enzyme kinetics data (GraphPad Prism)  
-- `GRL0617_inhibition.prism` — Dose-response curve and IC<sub>50</sub> measurement of GRL0617  
-- `raw_data_michaelis_menten_experiment.xlsx` — Raw fluorescence readings for kinetic analysis  
-- `PLpro_NMR_spectrum.*` — Raw or processed NMR spectral data (Bruker format or processed)
+- [`data/MM_complete.prism`](./data/MM_complete.prism) — Michaelis-Menten enzyme kinetics data (GraphPad Prism)  
+- [`data/GRL0617_inhibition.prism`](./data/GRL0617_inhibition.prism) — Dose-response curve and IC<sub>50</sub> measurement of GRL0617  
+- [`data/raw_data_michaelis_menten_experiment.xlsx`](./data/raw_data_michaelis_menten_experiment.xlsx) — Raw fluorescence readings for kinetic analysis  
+- `data/PLpro_NMR_spectrum.*` — Raw or processed NMR spectral data (Bruker format or processed; to be uploaded)
 
 Substrate used in fluorescence assays: **Z-Arg-Leu-Arg-Gly-Gly-AMC Acetate**, containing the PL<sup>pro</sup> cleavage motif **RLRGG/X**, conjugated to an AMC fluorophore.
 
