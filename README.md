@@ -1,74 +1,62 @@
-# Experimental Data Archive: SARS-CoV-2 PLpro Protocol
+# Experimental Data Archive: SARS-CoV-2 PL<sup>pro</sup> Protocol
 
 This repository contains raw and processed experimental data supporting the following publication:
 
-**Title**: *Protocol for Production and Characterization of SARS-CoV-2 PLpro in Escherichia coli*  
-**Authors**: Anna De Falco¹²³\*, Rebecca Greene-Cramer¹²³\*, Ben A. Surina¹², Suren Zakian¹², Thomas B. Acton¹², Theresa A. Ramelot¹², and Gaetano T. Montelione¹²⁴\*\*  
-¹ Center for Biotechnology and Interdisciplinary Sciences, Rensselaer Polytechnic Institute, Troy, NY, USA  
-² Department of Chemistry and Chemical Biology, Rensselaer Polytechnic Institute, Troy, NY, USA  
-³ Technical Contacts: [defala@rpi.edu](mailto:defala@rpi.edu), [greenr9@rpi.edu](mailto:greenr9@rpi.edu)  
-⁴ Lead Contact: [monteg3@rpi.edu](mailto:monteg3@rpi.edu)  
+**Protocol for Production and Characterization of SARS-CoV-2 PL<sup>pro</sup> in Escherichia coli**
+
+**Anna De Falco<sup>1,2,3,\*</sup>, Rebecca Greene-Cramer<sup>1,2,3,\*</sup>, Ben A. Surina<sup>1,2</sup>, Suren Zakian<sup>1,2</sup>, Thomas B. Acton<sup>1,2</sup>, Theresa A. Ramelot<sup>1,2</sup>, and Gaetano T. Montelione<sup>1,2,4,\*\*</sup>  
+<sup>1</sup> Center for Biotechnology and Interdisciplinary Sciences, Rensselaer Polytechnic Institute, Troy, NY, USA  
+<sup>2</sup> Department of Chemistry and Chemical Biology, Rensselaer Polytechnic Institute, Troy, NY, USA  
+<sup>3</sup> Technical Contacts: [defala@rpi.edu](mailto:defala@rpi.edu), [greenr9@rpi.edu](mailto:greenr9@rpi.edu)  
+<sup>4</sup> Lead Contact: [monteg3@rpi.edu](mailto:monteg3@rpi.edu)  
 \* These authors contributed equally  
 \*\* Corresponding author  
 
-### Preprint  
-Published in bioRxiv (2025):  
-**"From Plasmid to Pure Protein: Production and Characterization of SARS-CoV-2 PLpro"**  
-[PMCID: PMC11952365](https://pmc.ncbi.nlm.nih.gov/articles/PMC11952365/)
+### Published: *Star Protocols* (2025)  
+*Volume XX, Pages XXX–XXX* (to be updated upon publication)
 
 ---
 
-## Repository Contents
+## 🧾 Abstract
 
-This dataset includes representative raw and analyzed data from the fluorescence-based enzyme assays and NMR characterization of SARS-CoV-2 PLpro, as described in the above protocol.
-
-**Files included:**
-
-- `MM_complete.prism` — Michaelis-Menten assay data in Prism format  
-- `GRL0617_inhibition.prism` — Dose-response inhibition data for GRL0617  
-- `raw_data_michaelis_menten_experiment.xlsx` — Raw fluorescence measurements for kinetic analysis  
-- `PLpro_NMR_spectrum.*` — NMR data file (file extension depends on instrument/export format)
+Papain-like protease (PL<sup>pro</sup>) from SARS-CoV-2 is a high-priority target for COVID-19 antiviral drug development. Here, we present a protocol for PL<sup>pro</sup> production in *Escherichia coli*. We describe steps for expressing PL<sup>pro</sup> as a fusion with a SUMO tag and purifying and obtaining it in its native form upon hydrolysis. We provide approaches for PL<sup>pro</sup> characterization by mass spectrometry, NMR, and a fluorescence-based enzyme assay. We also detail a technique for producing isotope-enriched samples suitable for NMR studies.
 
 ---
 
-## Experimental Overview
+## 📁 Available Data
 
-We describe an E. coli expression and purification protocol for SARS-CoV-2 papain-like protease (PLpro), followed by biophysical characterization using:
+This repository includes representative raw and processed experimental data:
 
-- **Mass spectrometry**  
-- **Nuclear Magnetic Resonance (NMR)**  
-- **Fluorescence-based enzyme inhibition assays**
+- `MM_complete.prism` — Michaelis-Menten enzyme kinetics data (GraphPad Prism)  
+- `GRL0617_inhibition.prism` — Dose-response curve and IC<sub>50</sub> measurement of GRL0617  
+- `raw_data_michaelis_menten_experiment.xlsx` — Raw fluorescence readings for kinetic analysis  
+- `PLpro_NMR_spectrum.*` — Raw or processed NMR spectral data (Bruker format or processed)
 
-The peptide substrate used in activity assays was **Z-Arg-Leu-Arg-Gly-Gly-AMC Acetate**, mimicking the PLpro cleavage site (RLRGG/X), and GRL0617 was tested as a known inhibitor.
-
----
-
-## Software and Tools Used
-
-- **TopSpin 4.2.0** ([Bruker](https://www.bruker.com/en/products-andsolutions/mr/nmr-software/topspin.html))  
-- **POKY9** ([POKY NMR Tools](https://sites.google.com/view/pokynmr))  
-- **NMRFAM SPARKY** ([NMRFAM](https://nmrfam.wisc.edu/nmrfam-sparky-distribution/))  
-- **Magellan™ v7.2** ([Tecan](https://lifesciences.tecan.com/software-magellan))  
-- **GraphPad Prism** ([GraphPad](https://www.graphpad.com))  
-- **Microsoft Excel** ([Microsoft 365](https://www.microsoft.com/en-us/microsoft-365/excel))
+Substrate used in fluorescence assays: **Z-Arg-Leu-Arg-Gly-Gly-AMC Acetate**, containing the PL<sup>pro</sup> cleavage motif **RLRGG/X**, conjugated to an AMC fluorophore.
 
 ---
 
-## Citation
+## ⚙️ Software Versions and Tools
 
-If you use these data or protocols, please cite the published protocol and/or preprint:
+Data were generated or analyzed using the following software tools:
 
-> De Falco A, Greene-Cramer R, Surina BA, Zakian S, Acton TB, Ramelot TA, Montelione GT. (2025). *From Plasmid to Pure Protein: Production and Characterization of SARS-CoV-2 PLpro.* bioRxiv. [PMC11952365](https://pmc.ncbi.nlm.nih.gov/articles/PMC11952365/)
+- [TopSpin 4.2.0](https://www.bruker.com/en/products-andsolutions/mr/nmr-software/topspin.html)  
+- [POKY9](https://sites.google.com/view/pokynmr)  
+- [NMRFAM SPARKY](https://nmrfam.wisc.edu/nmrfam-sparky-distribution/)  
+- [Magellan™ v7.2](https://lifesciences.tecan.com/software-magellan)  
+- [GraphPad Prism](https://www.graphpad.com)  
+- [Microsoft Excel](https://www.microsoft.com/en-us/microsoft-365/excel)
 
 ---
 
-## Contact
+## 📚 Reference
 
-For technical questions, please contact:
+If you use this dataset or follow the protocol, please cite:
 
-- [defala@rpi.edu](mailto:defala@rpi.edu)
-- [greenr9@rpi.edu](mailto:greenr9@rpi.edu)
-- [monteg3@rpi.edu](mailto:monteg3@rpi.edu) (lead contact)
+> De Falco A, Greene-Cramer R, Surina BA, Zakian S, Acton TB, Ramelot TA, Montelione GT. (2025). *Protocol for Production and Characterization of SARS-CoV-2 PL<sup>pro</sup> in Escherichia coli*. **Star Protocols**, Volume XX, Pages XXX–XXX.
+
+Also available as a preprint:  
+> *From Plasmid to Pure Protein: Production and Characterization of SARS-CoV-2 PL<sup>pro</sup>*. bioRxiv. [PMC11952365](https://pmc.ncbi.nlm.nih.gov/articles/PMC11952365/)
 
 ---
 
