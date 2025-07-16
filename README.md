@@ -30,7 +30,10 @@ This repository includes representative raw and processed experimental data:
 - [`data/MM_complete.prism`](./data/MM_complete.prism) — Michaelis-Menten enzyme kinetics data (GraphPad Prism)  
 - [`data/GRL0617_inhibition.prism`](./data/GRL0617_inhibition.prism) — Dose-response curve and IC<sub>50</sub> measurement of GRL0617  
 - [`data/raw_data_michaelis_menten_experiment.xlsx`](./data/raw_data_michaelis_menten_experiment.xlsx) — Raw fluorescence readings for kinetic analysis  
-- `data/PLpro_NMR_spectrum.*` — Raw or processed NMR spectral data (Bruker format or processed; to be uploaded)
+- [`data/NMR_19F-Trp_1D_19F_Bruker_data.zip`]
+(./data/NMR_19F-Trp_1D_19F_Bruker_data.zip) — Raw and processed 19F NMR spectral data (Bruker format)
+- [`data/NMR_15N-Trosy_Bruker_data.zip`]
+(./data/NMR_15N-Trosy_Bruker_data.zip) — 2D 15N TROSY NMR spectral data (Bruker format)
 
 Substrate used in fluorescence assays: **Z-Arg-Leu-Arg-Gly-Gly-AMC Acetate**, containing the PL<sup>pro</sup> cleavage motif **RLRGG/X**, conjugated to an AMC fluorophore.
 
